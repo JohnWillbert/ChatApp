@@ -1,0 +1,87 @@
+#root{
+  width: 100%;
+}
+.App{
+  text-align: center;
+}
+
+.chat-message {
+  background-color: #e9e9e9;
+  padding: 1em;
+  max-height: 450px;
+  overflow-y: auto;
+  border-radius: 25px;
+  color: gray;
+  align-items: flex-end;
+}
+
+/* Chat container */
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+/* Right-side (user's messages) */
+.right-content {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.message-nameright {
+  font-size: 12px;
+  font-weight: bold;
+  color: #6c757d;
+  margin-bottom: 2px;
+}
+
+.message-right {
+  background-color: #1877F2;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 15px;
+  max-width: 60%;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.message-right .message-text {
+  margin-right: 10px;
+}
+
+.logo-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* Left-side (other users' messages) */
+.message-left {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.message-nameleft {
+  font-size: 12px;
+  font-weight: bold;
+  color: #6c757d;
+  margin-bottom: 2px;
+}
+
+.messsage-left {
+  background-color: white; /* Changed to green */
+  color: black;
+  padding: 10px 15px;
+  border-radius: 15px;
+  max-width: 60%;
+  display: flex;
+  align-items: center;
+  word-wrap: break-word;
+}
+
+.messsage-left .message-text {
+  margin-left: 10px;
+}
+
