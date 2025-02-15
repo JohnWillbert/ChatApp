@@ -16,24 +16,18 @@ Emojis & multimedia support
 
 Typing indicator (optional)
 
-Message history and storage (if backend is used)
 
 🛠️ Tech Stack
 
-Frontend: React.js, CSS, Tailwind CSS/Bootstrap (optional)
+Frontend: React.js, CSS, Bootstrap
 
-Backend (if included): Node.js, Express.js
+Database (if included): Firebase
 
-Database (if included): Firebase, MongoDB, or PostgreSQL
-
-Real-time Communication: WebSockets (Socket.io) or Firebase Realtime Database
+Real-time Communication: Firebase Realtime Database
 
 📥 Installation & Setup
 
-Clone the Repository
-
-git clone https://github.com/your-username/react-chat-app.git
-cd react-chat-app
+Clone the Repository: https://johnwillbert.github.io/ChatApp/
 
 Install Dependencies
 
@@ -47,7 +41,6 @@ Run Backend Server (if applicable)
 
 cd server
 npm install
-node server.js
 
 Open in Browser
 Navigate to http://localhost:3000.
@@ -64,16 +57,11 @@ Group chat functionality
 
 Message encryption for security
 
-Voice and video call support
+Voice support
 
-📜 License
-
-This project is licensed under the MIT License.
-
-👨‍💻 Contributing
 
 Feel free to contribute by submitting a pull request.
 
 🤝 Contact
 
-For any queries, reach out to your-email@example.com or visit Your GitHub Profile.
+For any queries, reach out to johnwillbert260@gmail.com or visit Your GitHub Profile.
