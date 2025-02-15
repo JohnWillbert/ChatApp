@@ -56,17 +56,16 @@ export default function Chat({ user }) {
         <ChatMessage {...message} user={user} />
       ))}
 
-      {/* Input Box with Send Button Positioned Inside */}
+      {/* Input Box with Round Send Button on the Right */}
       <div className="position-relative">
         <input
           type="text"
-          className="form-control rounded-pill input-box"
-          placeholder="Message"
+          className="form-control rounded-pill pe-5" /* pe-5 adds padding for button space */
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
         <button className="btn send-btn position-absolute" onClick={handleSubmit}>
-          <img src="./img/sendicon.png" alt="Send" className="send-icon" />
+          <i className="fas fa-paper-plane">Send</i>
         </button>
       </div>
 
@@ -76,6 +75,7 @@ export default function Chat({ user }) {
     </div>
   </div>
 </div>
+
 
 
 

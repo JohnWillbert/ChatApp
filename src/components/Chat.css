@@ -1,33 +1,27 @@
-/* Style Input Box */
-.input-box {
-    width: 100%;
-    padding-right: 50px; /* Space for the send button */
-  }
-  
-  /* Send Button Styling */
-  .send-btn {
-    border-radius: 50%; /* Round shape */
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    transition: 0.3s ease-in-out;
-    padding: 0;
-    right: 0px; /* Position inside the input */
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  
-  /* Button Hover Effect */
-  .send-btn:hover {
-    background-color: #218838; /* Darker green */
-  }
-  
-  /* Image inside the button */
-  .send-icon {
-    width: 40px;
-    height: 40px;
-  }
-  
+/* Send Button (Round & Positioned Inside Input Box) */
+.send-btn {
+  background-color: #28a745; /* Green */
+  color: white;
+  border-radius: 50%; /* Makes it circular */
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  transition: 0.3s ease-in-out;
+  font-size: 18px;
+  right: 0px; /* Positions button inside input field */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Button Hover Effect */
+.send-btn:hover {
+  background-color: #33ff00; /* Darker green */
+}
+
+/* Ensure Input Field has Padding on the Right for Button */
+.form-control {
+  padding-right: 50px; /* Space for button */
+}

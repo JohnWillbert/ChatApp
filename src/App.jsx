@@ -31,13 +31,19 @@ function App() {
               style={{ borderRadius: 200 }}
             />
           </div>
+         
+          <h2 className="welcome-text">Welcome to Chat App</h2>
+          <p className="login-description text-success fw-bold">
+            Connect with your friends instantly. Click the button below to get started! login with google.
+          </p>
+
           <div>
             <button
               className="btn btn-primary"
-              style={{ marginTop: "50px" }}
+              style={{ marginTop: "10px" }}
               onClick={handleSignIn}
             >
-              login
+              Login with Google
             </button>
           </div>
         </div>
