@@ -34,7 +34,7 @@ function App() {
          
           <h2 className="welcome-text">Welcome to Chat App</h2>
           <p className="login-description text-success fw-bold">
-            Connect with your friends instantly. Click the button below to get started! login with google.
+            Connect with your friends instantly. Click the button below to get started! login with Google.
           </p>
 
           <div>
